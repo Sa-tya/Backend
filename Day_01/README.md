@@ -96,19 +96,19 @@
 
     Add in set.
 
-   Ex- SADD setName value
+    Ex- SADD setName value
 
 #### 16. SMEMBERS
 
     It will prints all members of set.
 
-   Ex- SMEMBERS setName
+    Ex- SMEMBERS setName
 
 ### OBJECT
 
 #### 17. HSET
 
-   Ex- HSET objName keyName value
+    Ex- HSET objName keyName value
 
 #### 18. HGET
     Get value
