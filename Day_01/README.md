@@ -1,6 +1,6 @@
 # Day 1 of Backend module of Devsnest
 
-    About Redis and CRUD operations on it.
+### About Redis and CRUD operations on it.
 
 ### What is REDIS ?
 
@@ -12,56 +12,56 @@
 
     It is used to set value in key in string format.
 
-#####    Ex- SET name 'satya' or satya
+    Ex- SET name 'satya' or satya
 
 #### 2. GET
 
     It is used to find value of key.
 
-#####    Ex- GET keyName
+    Ex- GET keyName
 
 #### 3. EXISTS
 
     It will check wether key exists or not. If exists then it will return 1 else 0.
 
-#####    Ex- EXISTS keyName
+    Ex- EXISTS keyName
 
 #### 4. KEYS *
 
     It will print all keys and not value.
 
-#####    Ex- KEYS *
+    Ex- KEYS *
 
 #### 5. FLUSHALL
 
     It will delete all keys and of-course value as well.
 
-#####    Ex- FLUSHALL
+    Ex- FLUSHALL
 
 #### 6. DEL keyName
 
     It will delete a key named keyName.
 
-#####    Ex- DEL keyName
+    Ex- DEL keyName
 
 #### 7. TTL (Time to Live)
 
     It will return time to expire a key.
     If expire time is not setted then it will return -1.
 
-#####    Ex- ttl keyName
+    Ex- ttl keyName
 
 #### 8. Expire
 
     It will set a time to expire.
 
-#####    Ex- expire keyName time (in sec)
+    Ex- expire keyName time (in sec)
 
 #### 9. setex
 
     It will set a value in key with expire time.
 
-#####    setex keyName time value
+    setex keyName time value
 
 ### Array
 
@@ -81,14 +81,14 @@
 
     pop to right of array.
 
-#####    Ex- lpush arrayName value
+    Ex- lpush arrayName value
 
 #### 14. LRANGE
 
     It will print array from index a to b.
     If b is -1 then it will print a to last element of array.
 
-#####    Ex- LRANGE arr 0 -1
+    Ex- LRANGE arr 0 -1
 
 ### SET
 
@@ -96,19 +96,19 @@
 
     Add in set.
 
-#####   Ex- SADD setName value
+   Ex- SADD setName value
 
 #### 16. SMEMBERS
 
     It will prints all members of set.
 
-#####   Ex- SMEMBERS setName
+   Ex- SMEMBERS setName
 
 ### OBJECT
 
 #### 17. HSET
 
-#####   Ex- HSET objName keyName value
+   Ex- HSET objName keyName value
 
 #### 18. HGET
     Get value
