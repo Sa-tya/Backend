@@ -11,7 +11,7 @@
 ## What is Express in NODE ?
     Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. Basically it makes HTTP request handling easy.
 
-### why we use nodemon ?
+### Why we use nodemon ?
     It will update your server after every changes else you have to do ctrl + c then start again every times.
 
 ## What is HTTP?
@@ -43,9 +43,9 @@
 ### PATCH:-
 
 ## HTTP status code:-
+
 ### 1XX:-
     Information
-
 ### 2XX:-
     Successful
 ### 3XX:-
@@ -55,7 +55,7 @@
 ### 5XX:-
     erver side error
 
-## requst and response in HTTP methods:-
+## Requst and Response in HTTP methods:-
     It is the 2 arguments in every method of HTTP.
     Request argument will carry the information which client has sent with request.
     Response is the argument which will sent data as response as well as status code.
@@ -75,11 +75,12 @@
 
     request.params - It specifiy the dynamic data in URL.
     
-### url slash
+### URL matching
 
     1. + :-
     ab+c I.e. Any thing between ab and c.
     Ex - abGFHGSFHGAFSc
+
     2. * :-
     ab*c
     Ex - ab
@@ -91,4 +92,6 @@
     4. () :- (budle a no of characters)
     ab(cd)?e
     Ex - abe, abcde
+
+    5. Regex
 
