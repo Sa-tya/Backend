@@ -2,6 +2,7 @@
 
 ## Send static file to server
 
+### various Response method  
 | Method	| Description |
 | -------------------------------------- | -------------------------------------- |
 | res.download()	| Prompt a file to be downloaded.
