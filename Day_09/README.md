@@ -2,7 +2,8 @@
 
 ## Send static file to server
 
-| Method	| Description
+| Method	| Description |
+| -------------------------------------- | -------------------------------------- |
 | res.download()	| Prompt a file to be downloaded.
 | res.end()	| End the response process.
 | res.json()	| Send a JSON response.
